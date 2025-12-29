@@ -90,7 +90,16 @@ while True:
         new_segment.color("grey")
         new_segment.penup()
         segments.append(new_segment)
-    move()
+    # Move the segments
+    for index in range(len(segments) - 1, 0, -1):
+        x = segments[index - 1].xcor()
+        y = segments[index - 1].ycor()
+        segments[index].goto(x, y)
+    # Move segment 0 to where head is
+    if len(segments) > 0:
+        x = head.xcor()
+        y = head.ycor()
+        segments[0].goto(x, y)
 
     time.sleep(delay)
 
