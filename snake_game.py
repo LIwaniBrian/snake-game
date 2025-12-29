@@ -76,7 +76,7 @@ window.onkeypress(go_left, "a")
 # Main_game_loop
 while True:
     window.update()
-
+    move()
     # check for collision with food
     if head.distance(food) < 20:
         # Move the food to a random position
