@@ -23,3 +23,39 @@ The player controls the snake using the keyboard, eats food to grow longer, and 
 1. Clone the repository:
    ```bash
    git clone https://github.com/LiwaniBrian/snake-game.git
+Navigate into the project folder:
+Run the game:
+python snake.py
+
+**make sure python is installed on your system**
+
+✨ Features
+
+*Smooth snake movement
+*Random food generation
+*Score tracking
+*Game over detection
+
+🧠 What I Learned
+
+Handling keyboard input in Python
+
+Game loops and collision detection
+
+Managing game state and logic
+
+🔥 Future Improvements
+
+*Levels & increasing speed
+
+*High-score saving
+
+*Sound effects
+
+*Restart button
+
+👤 Author
+
+Brian
+Final-year Computer Science & Mathematics student
+📌 GitHub: LiwaniBrian
